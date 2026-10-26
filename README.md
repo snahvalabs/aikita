@@ -14,7 +14,6 @@ Organisasi pemakai: **Frayas Academy**
 | Autentikasi | Header dispatcher ChatGPT | Login lokal multi-akun + cookie HttpOnly bertanda HMAC (`app/local-auth.ts`, `lib/accounts.ts`, `/login`, `/api/auth`) |
 | LLM | Tidak ada (kutipan kata kunci saja) | Konfigurasi Ollama/LLM lewat menu **Pengaturan AI** (uji koneksi, pilih model) + fallback kutipan |
 | Ekstraksi dokumen | PDF.js + Tesseract.js dari `/public/engines` | Pilihan mode baca global: **OCR** (Tesseract) atau **LangChain** (`app/langchain-engine.ts`) |
-| Nama & identitas | Dirgantara / Mabes AU / TNI AU | AIKITA / Frayas Academy |
 | Peran demo | Admin / Personel | Admin / Anggota |
 
 ## Menjalankan
