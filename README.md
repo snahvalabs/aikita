@@ -1,12 +1,12 @@
 # AIKITA — Asisten Pengetahuan Frayas Academy
 
-AIKITA adalah hasil konversi aplikasi **Dirgantara** agar berjalan **murni lokal**: basis data lokal (SQLite), komponen lokal (mesin OCR/PDF, UI, ekspor), autentikasi lokal, dan **LLM lokal** (opsional, mis. Ollama). Tidak ada layanan cloud, tidak ada ketergantungan pada dispatcher ChatGPT, dan tidak ada plugin Cloudflare (Workers/D1/R2).
+AIKITA adalah hasil konversi aplikasi Generative AI yang berjalan **murni lokal**: basis data lokal (SQLite), komponen lokal (mesin OCR/PDF, UI, ekspor), autentikasi lokal, dan **LLM lokal** (opsional, mis. Ollama). Tidak ada layanan cloud, tidak ada ketergantungan pada dispatcher ChatGPT, dan tidak ada plugin Cloudflare (Workers/D1/R2).
 
-Organisasi pemakai: **Frayas Academy** (menggantikan konteks TNI AU pada versi asli).
+Organisasi pemakai: **Frayas Academy**
 
 ## Ringkasan konversi
 
-| Aspek | Dirgantara (asli) | AIKITA (lokal) |
+| Aspek | AI Lain (service) | AIKITA (lokal) |
 | --- | --- | --- |
 | Basis data | Cloudflare D1 (binding `DB`) | SQLite lokal `data/aikita.db` via `node:sqlite` (`db/index.ts`) |
 | Berkas versi dokumen | Bucket R2 (binding `BUCKET`) | Berkas lokal `data/blobs/<user>/<doc>/<v>.txt` (`lib/local-bucket.ts`) |
