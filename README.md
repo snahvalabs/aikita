@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # AIKITA — Asisten Pengetahuan Frayas Academy
 
 AIKITA adalah hasil konversi aplikasi **Dirgantara** agar berjalan **murni lokal**: basis data lokal (SQLite), komponen lokal (mesin OCR/PDF, UI, ekspor), autentikasi lokal, dan **LLM lokal** (opsional, mis. Ollama). Tidak ada layanan cloud, tidak ada ketergantungan pada dispatcher ChatGPT, dan tidak ada plugin Cloudflare (Workers/D1/R2).
@@ -94,12 +92,3 @@ kata kunci dari dokumen aktif.
 - `pnpm build` — build produksi.
 - Alur diuji lewat HTTP: login, GET/POST `/api/workspace`, aktivasi referensi, percakapan dengan dan tanpa LLM lokal.
 
-Dokumen bawaan adalah data contoh fiktif Frayas Academy, bukan ketentuan resmi.
-=======
-# aikita
-AI lokal untuk KITA semua
->>>>>>> a92ab240e4a4b7dd233c61b06d6f6c1da85334f0
-=======
-# aikita
-AI lokal untuk KITA semua
->>>>>>> a92ab240e4a4b7dd233c61b06d6f6c1da85334f0
